@@ -20,7 +20,7 @@ namespace TinhKraTheoGio
             Console.Write("Vui long nhap so gio su dung phong karaoke: ");
             string input = Console.ReadLine();
 
-            // Xử lý lỗi nếu người dùng nhập không phải số.
+            // Xử lý lỗi nếu người dùng nhập không phải số..
             if (!decimal.TryParse(input, out decimal hours) || hours < 0)
             {
                 Console.WriteLine("So gio khong hop le. Vui long nhap so duong.");
